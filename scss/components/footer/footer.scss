@@ -1,0 +1,66 @@
+.footer {
+  padding: 100px 0;
+  background-image: url("./../img/bg_tr_upper.png");
+  @extend %bg-img;
+  background-position: bottom right;
+  background-size: 22% 181%;
+
+  .footer__address {
+    .footer__headline {
+      color: $user_img;
+
+      span {
+        margin-left: -10px;
+        padding: 25px;
+        color: white;
+        background-image: url("./../img/footer_button.png");
+        @extend %bg-img;
+        background-size: 50px;
+      }
+    }
+
+    p {
+      max-width: 230px;
+      font-size: 14px;
+    }
+
+  }
+
+  .footer__newsletter {
+    input {
+      background-color: $bg_colour;
+      outline: none;
+      border: none;
+      width: 220px;
+      padding: 15px 0 15px 30px;
+
+      &::placeholder {
+        text-transform: uppercase;
+      }
+    }
+    button {
+      background-color: transparent;
+      width: 22%;
+      margin-left: -10px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+  .footer__contacts {
+    padding-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    img {
+      padding-right: 35px;
+      filter: invert(50%);
+    }
+  }
+
+
+  }
+}

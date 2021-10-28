@@ -1,0 +1,6 @@
+@mixin content($pd) {
+  @extend %content;
+  h3 {
+    padding: $pd;
+  }
+}

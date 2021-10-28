@@ -1,0 +1,18 @@
+.responsive {
+  padding: 140px 0 100px;
+  min-height: 550px;
+  background-image: url("./../img/bg_tr.png");
+  @extend %bg-img;
+  background-position: top left;
+  background-size: 50% 200%;
+
+  .responsive__img {
+    max-width: 600px;
+  }
+
+  .responsive__content {
+    max-width: 490px;
+    @include content(30px 0 30px);
+    margin-left: 50px;
+  }
+}

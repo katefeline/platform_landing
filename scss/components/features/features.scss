@@ -1,0 +1,28 @@
+.features {
+  padding: 140px 0 190px;
+  background-color: $bg_colour;
+  background-image: url("./../img/bg1.png"), url("./../img/bg2.png"), url("./../img/bg3.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: top -20px left 50px, bottom -80px right, top -30px right 75px;
+
+  .features__headline {
+    @include content(25px 0 95px);
+    text-align: center;
+  }
+
+  .features__content {
+    text-align: center;
+
+    .features__block {
+      padding-left: 50px;
+
+      img {
+        padding-bottom: 30px;
+      }
+
+      h5 {
+        padding-bottom: 10px;
+      }
+    }
+  }
+}

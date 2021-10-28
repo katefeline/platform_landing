@@ -1,0 +1,36 @@
+.clients {
+  background-image: url("./../img/bg.png");
+  @extend %bg-img;
+  padding: 100px 0 90px;
+
+  .client__name {
+    padding-bottom: 100px;
+    .clients__img {
+      background-color: $user_img;
+      width: 70px;
+      height: 80px;
+      display: inline-block;
+    }
+
+    h5 {
+      color: white;
+      font-size: 16px;
+      padding-top: 20px;
+    }
+
+    h6 {
+      color: $button_colour;
+      font-size: 14px;
+      padding-bottom: 25px;
+    }
+
+    p {
+      color: #b3b3b5;
+      font-style: italic;
+    }
+  }
+
+  .client__logo {
+    filter: invert(50%);
+  }
+}

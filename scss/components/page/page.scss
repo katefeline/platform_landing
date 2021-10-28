@@ -1,0 +1,13 @@
+.page {
+  padding-top: 105px;
+
+  .page__content {
+    @include content(20px 0 50px);
+    max-width: 650px;
+  }
+
+  .page__img {
+    max-width: 770px;
+
+  }
+}

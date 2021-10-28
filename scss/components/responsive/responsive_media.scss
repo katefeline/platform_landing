@@ -1,0 +1,16 @@
+@media(max-width: 768px) {
+  .responsive {
+    padding: 50px 15px;
+    background-position: top left;
+    .responsive__content {
+      margin: 0;
+
+      h4 {
+        margin-top: 10px;
+      }
+    }
+    .responsive__img {
+
+    }
+  }
+}

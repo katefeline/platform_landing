@@ -1,0 +1,13 @@
+@media(max-width: 768px) {
+.clients {
+  padding: 50px 15px;
+
+  .client__name {
+    padding-bottom: 15px;
+  }
+
+  .client__logo {
+    display: none;
+  }
+}
+}

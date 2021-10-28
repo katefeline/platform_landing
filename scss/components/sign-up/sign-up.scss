@@ -1,0 +1,57 @@
+.sign-up {
+  background-color: $sign-up_colour;
+  color: white;padding: 100px 0 90px;
+  @include content(20px 0 50px);
+
+  .sign-up__headline {
+    h3 {
+      font-family: Exo-Thin, sans-serif;
+    }
+  }
+
+  .sign-up__trial {
+    p::before {
+      content: url("./../img/arrow.png");
+      vertical-align: -20px;
+    }
+  }
+
+  .sign-up__input {
+    .form-control:focus {
+      border-color: transparent;
+      box-shadow: 0 0 0 0.25rem rgb(255 255 255/ 50%);
+    }
+
+      #floatingInputName,
+      #floatingInputEmail,
+      #floatingPassword {
+        background-color: $bg_input;
+        color: white;
+      }
+
+    }
+
+  .sign-up__button {
+    background-color: $button_colour;
+
+    &:hover {
+      box-shadow: 0 0 0 0.25rem rgb(255 109 109 / 50%);
+    }
+
+    a {
+      color: white;
+    }
+  }
+
+  .sign-up__terms {
+    font-size: 14px;
+    margin-top: 50px;
+
+    a {
+      text-decoration: underline;
+      color: white;
+    }
+  }
+
+
+}

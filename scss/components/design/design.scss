@@ -1,0 +1,16 @@
+.design {
+  padding: 190px 0 180px;
+  background-image: url("./../img/bg_img_rec.png");
+  @extend %bg-img;
+  background-size: 40% 100%;
+  background-position: right;
+  min-height: 700px;
+
+  .design__content {
+    @include content(20px 0 60px);
+  }
+
+  .design__empty {
+    width: 40%;
+  }
+}
