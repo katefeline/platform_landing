@@ -1,10 +1,12 @@
 .intro {
   text-align: center;
-  padding: 220px 0 230px;
   @extend %bg-img;
   background-image: url("./../img/sparkles.png");
   background-attachment: fixed;
   z-index: -1;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 
   .intro__text {
     max-width: 710px;
@@ -15,6 +17,11 @@
       font-style: normal;
       font-size: 50px;
       color: white;
+    }
+
+    h1 {
+      background-color: rgb(190 214 235 / 85%);
+      border-radius: 20px;
     }
 
     .intro__play {

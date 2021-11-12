@@ -17,11 +17,6 @@
 
 @media (max-width: 768px) {
   .footer {
-    .footer__address {
-      .footer__headline {
-        text-align: center;
-      }
-    }
     .footer__address p {
       max-width: 100%;
     }
@@ -37,13 +32,6 @@
       }
     }
 
-    .footer__support,
-    .footer__address,
-    .footer__about-us,
-    .footer__newsletter {
-      text-align: center;
-    }
-
     .footer__newsletter {
       button {
         margin-left: -34px;
@@ -51,9 +39,6 @@
           width: 56px;
           height: 57px;
         }
-      }
-      .footer__contacts {
-        justify-content: center;
       }
     }
   }

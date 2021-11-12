@@ -82,10 +82,12 @@ h5 {
 
 .intro {
   text-align: center;
-  padding: 220px 0 230px;
   background-image: url("./../img/sparkles.png");
   background-attachment: fixed;
   z-index: -1;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 .intro .intro__text {
   max-width: 710px;
@@ -96,6 +98,10 @@ h5 {
   font-style: normal;
   font-size: 50px;
   color: white;
+}
+.intro .intro__text h1 {
+  background-color: rgba(190, 214, 235, 0.85);
+  border-radius: 20px;
 }
 .intro .intro__text .intro__play {
   padding: 65px 0 40px;
@@ -161,7 +167,7 @@ h5 {
   text-align: center;
 }
 .features .features__content .features__block {
-  padding-left: 50px;
+  padding: 50px;
 }
 .features .features__content .features__block img {
   padding-bottom: 30px;
@@ -393,9 +399,6 @@ h5 {
   }
 }
 @media (max-width: 768px) {
-  .footer .footer__address .footer__headline {
-    text-align: center;
-  }
   .footer .footer__address p {
     max-width: 100%;
   }
@@ -406,21 +409,12 @@ h5 {
   .footer .footer__support h5 {
     padding-top: 10px;
   }
-  .footer .footer__support,
-.footer .footer__address,
-.footer .footer__about-us,
-.footer .footer__newsletter {
-    text-align: center;
-  }
   .footer .footer__newsletter button {
     margin-left: -34px;
   }
   .footer .footer__newsletter button img {
     width: 56px;
     height: 57px;
-  }
-  .footer .footer__newsletter .footer__contacts {
-    justify-content: center;
   }
 }
 
